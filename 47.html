@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--<link href="customStyle28.css" rel="stylesheet">-->
+<style type="text/css">
+    body{
+        position: relative;
+    }
+
+    .divStyle{
+        padding-top:40px;
+    }
+
+</style>
+</head>
+<body data-spy="scroll" data-target="#mainNavbar" data-offset="10">
+
+<nav id="mainNavbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#ocean">Ocean</a></li>
+                <li><a href="#river">River</a></li>
+                <li><a href="#desert">Desert</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Animals
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#mountain">Mountain</a></li>
+                        <li><a href="#lion">Lion</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div id="ocean" class="divStyle">
+        <h1>Ocean</h1>
+        <img src="images/mbuntu-10.jpg" class="img-responsive"/>
+    </div>
+    <div id="river" class="divStyle">
+        <h1>River</h1>
+        <img src="images/mbuntu-9.jpg" class="img-responsive"/>
+    </div>
+    <div id="desert" class="divStyle">
+        <h1>Desert</h1>
+        <img src="images/mbuntu-6.jpg" class="img-responsive"/>
+    </div>
+    <div id="mountain" class="divStyle">
+        <h1>Mountain</h1>
+        <img src="images/mbuntu-3.jpg" class="img-responsive"/>
+    </div>
+    <div id="lion" class="divStyle">
+        <h1>Lion</h1>
+        <img src="images/mbuntu-11.jpg" class="img-responsive"/>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

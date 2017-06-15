@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="customStyle.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <br/>
+            <br/>
+            <br/>
+            <div class="alert alert-danger">
+                <a href="#" class="close" data-dismiss="alert">&times;</a>
+                <strong>Error!</strong>There is an error in submitting your form
+            </div>
+            <br/>
+            <br/>
+            <button class="btn btn-primary" id="btnSubmit">Submit</button>
+            <br/>
+            <br/>
+            <div class="alert alert-danger collapse" id="myAlert">
+                <a href="#" class="close" data-dismiss="alert">&times;</a>
+                <strong>Error!</strong>There is an error in submitting your form
+            </div>
+            <br/>
+            <br/>
+            <button class="btn btn-primary" id="btnSubmit2">Submit</button>
+            <br/>
+            <br/>
+            <div class="alert alert-danger collapse" id="myAlert2">
+                <a href="#" class="close" id="closeAlert">&times;</a>
+                <strong>Error!</strong>There is an error in submitting your form
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function(){
+        $('#btnSubmit').click(function(){
+            $('#myAlert').show('fade');
+        });
+
+        $('#btnSubmit2').click(function(){
+            $('#myAlert2').show('fade');
+
+            setTimeout(function(){
+                $('#myAlert2').hide('fade');
+            }, 2000);
+        });
+
+        $('#closeAlert').click(function(){
+            $('#myAlert2').hide('fade');
+        });
+    });
+
+</script>
+</body>
+</html>

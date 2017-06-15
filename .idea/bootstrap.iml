@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://D:/Work/dental/vendor/composer" />
+          <root url="file://D:/Work/dental/vendor/dnoegel/php-xdg-base-dir" />
+          <root url="file://D:/Work/dental/vendor/doctrine/inflector" />
+          <root url="file://D:/Work/dental/vendor/doctrine/instantiator" />
+          <root url="file://D:/Work/dental/vendor/erusev/parsedown" />
+          <root url="file://D:/Work/dental/vendor/fzaninotto/faker" />
+          <root url="file://D:/Work/dental/vendor/hamcrest/hamcrest-php" />
+          <root url="file://D:/Work/dental/vendor/jakub-onderka/php-console-color" />
+          <root url="file://D:/Work/dental/vendor/jakub-onderka/php-console-highlighter" />
+          <root url="file://D:/Work/dental/vendor/laravel/framework" />
+          <root url="file://D:/Work/dental/vendor/laravel/tinker" />
+          <root url="file://D:/Work/dental/vendor/league/flysystem" />
+          <root url="file://D:/Work/dental/vendor/mockery/mockery" />
+          <root url="file://D:/Work/dental/vendor/monolog/monolog" />
+          <root url="file://D:/Work/dental/vendor/mtdowling/cron-expression" />
+          <root url="file://D:/Work/dental/vendor/myclabs/deep-copy" />
+          <root url="file://D:/Work/dental/vendor/nesbot/carbon" />
+          <root url="file://D:/Work/dental/vendor/nikic/php-parser" />
+          <root url="file://D:/Work/dental/vendor/paragonie/random_compat" />
+          <root url="file://D:/Work/dental/vendor/phpdocumentor/reflection-common" />
+          <root url="file://D:/Work/dental/vendor/phpdocumentor/reflection-docblock" />
+          <root url="file://D:/Work/dental/vendor/phpdocumentor/type-resolver" />
+          <root url="file://D:/Work/dental/vendor/phpspec/prophecy" />
+          <root url="file://D:/Work/dental/vendor/phpunit/php-code-coverage" />
+          <root url="file://D:/Work/dental/vendor/phpunit/php-file-iterator" />
+          <root url="file://D:/Work/dental/vendor/phpunit/php-text-template" />
+          <root url="file://D:/Work/dental/vendor/phpunit/php-timer" />
+          <root url="file://D:/Work/dental/vendor/phpunit/php-token-stream" />
+          <root url="file://D:/Work/dental/vendor/phpunit/phpunit" />
+          <root url="file://D:/Work/dental/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://D:/Work/dental/vendor/psr/log" />
+          <root url="file://D:/Work/dental/vendor/psy/psysh" />
+          <root url="file://D:/Work/dental/vendor/ramsey/uuid" />
+          <root url="file://D:/Work/dental/vendor/sebastian/code-unit-reverse-lookup" />
+          <root url="file://D:/Work/dental/vendor/sebastian/comparator" />
+          <root url="file://D:/Work/dental/vendor/sebastian/diff" />
+          <root url="file://D:/Work/dental/vendor/sebastian/environment" />
+          <root url="file://D:/Work/dental/vendor/sebastian/exporter" />
+          <root url="file://D:/Work/dental/vendor/sebastian/global-state" />
+          <root url="file://D:/Work/dental/vendor/sebastian/object-enumerator" />
+          <root url="file://D:/Work/dental/vendor/sebastian/recursion-context" />
+          <root url="file://D:/Work/dental/vendor/sebastian/resource-operations" />
+          <root url="file://D:/Work/dental/vendor/sebastian/version" />
+          <root url="file://D:/Work/dental/vendor/swiftmailer/swiftmailer" />
+          <root url="file://D:/Work/dental/vendor/symfony/console" />
+          <root url="file://D:/Work/dental/vendor/symfony/css-selector" />
+          <root url="file://D:/Work/dental/vendor/symfony/debug" />
+          <root url="file://D:/Work/dental/vendor/symfony/event-dispatcher" />
+          <root url="file://D:/Work/dental/vendor/symfony/finder" />
+          <root url="file://D:/Work/dental/vendor/symfony/http-foundation" />
+          <root url="file://D:/Work/dental/vendor/symfony/http-kernel" />
+          <root url="file://D:/Work/dental/vendor/symfony/polyfill-mbstring" />
+          <root url="file://D:/Work/dental/vendor/symfony/process" />
+          <root url="file://D:/Work/dental/vendor/symfony/routing" />
+          <root url="file://D:/Work/dental/vendor/symfony/translation" />
+          <root url="file://D:/Work/dental/vendor/symfony/var-dumper" />
+          <root url="file://D:/Work/dental/vendor/symfony/yaml" />
+          <root url="file://D:/Work/dental/vendor/tijsverkoyen/css-to-inline-styles" />
+          <root url="file://D:/Work/dental/vendor/vlucas/phpdotenv" />
+          <root url="file://D:/Work/dental/vendor/webmozart/assert" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://D:/Work/dental/vendor/composer" />
+          <root url="file://D:/Work/dental/vendor/dnoegel/php-xdg-base-dir" />
+          <root url="file://D:/Work/dental/vendor/doctrine/inflector" />
+          <root url="file://D:/Work/dental/vendor/doctrine/instantiator" />
+          <root url="file://D:/Work/dental/vendor/erusev/parsedown" />
+          <root url="file://D:/Work/dental/vendor/fzaninotto/faker" />
+          <root url="file://D:/Work/dental/vendor/hamcrest/hamcrest-php" />
+          <root url="file://D:/Work/dental/vendor/jakub-onderka/php-console-color" />
+          <root url="file://D:/Work/dental/vendor/jakub-onderka/php-console-highlighter" />
+          <root url="file://D:/Work/dental/vendor/laravel/framework" />
+          <root url="file://D:/Work/dental/vendor/laravel/tinker" />
+          <root url="file://D:/Work/dental/vendor/league/flysystem" />
+          <root url="file://D:/Work/dental/vendor/mockery/mockery" />
+          <root url="file://D:/Work/dental/vendor/monolog/monolog" />
+          <root url="file://D:/Work/dental/vendor/mtdowling/cron-expression" />
+          <root url="file://D:/Work/dental/vendor/myclabs/deep-copy" />
+          <root url="file://D:/Work/dental/vendor/nesbot/carbon" />
+          <root url="file://D:/Work/dental/vendor/nikic/php-parser" />
+          <root url="file://D:/Work/dental/vendor/paragonie/random_compat" />
+          <root url="file://D:/Work/dental/vendor/phpdocumentor/reflection-common" />
+          <root url="file://D:/Work/dental/vendor/phpdocumentor/reflection-docblock" />
+          <root url="file://D:/Work/dental/vendor/phpdocumentor/type-resolver" />
+          <root url="file://D:/Work/dental/vendor/phpspec/prophecy" />
+          <root url="file://D:/Work/dental/vendor/phpunit/php-code-coverage" />
+          <root url="file://D:/Work/dental/vendor/phpunit/php-file-iterator" />
+          <root url="file://D:/Work/dental/vendor/phpunit/php-text-template" />
+          <root url="file://D:/Work/dental/vendor/phpunit/php-timer" />
+          <root url="file://D:/Work/dental/vendor/phpunit/php-token-stream" />
+          <root url="file://D:/Work/dental/vendor/phpunit/phpunit" />
+          <root url="file://D:/Work/dental/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://D:/Work/dental/vendor/psr/log" />
+          <root url="file://D:/Work/dental/vendor/psy/psysh" />
+          <root url="file://D:/Work/dental/vendor/ramsey/uuid" />
+          <root url="file://D:/Work/dental/vendor/sebastian/code-unit-reverse-lookup" />
+          <root url="file://D:/Work/dental/vendor/sebastian/comparator" />
+          <root url="file://D:/Work/dental/vendor/sebastian/diff" />
+          <root url="file://D:/Work/dental/vendor/sebastian/environment" />
+          <root url="file://D:/Work/dental/vendor/sebastian/exporter" />
+          <root url="file://D:/Work/dental/vendor/sebastian/global-state" />
+          <root url="file://D:/Work/dental/vendor/sebastian/object-enumerator" />
+          <root url="file://D:/Work/dental/vendor/sebastian/recursion-context" />
+          <root url="file://D:/Work/dental/vendor/sebastian/resource-operations" />
+          <root url="file://D:/Work/dental/vendor/sebastian/version" />
+          <root url="file://D:/Work/dental/vendor/swiftmailer/swiftmailer" />
+          <root url="file://D:/Work/dental/vendor/symfony/console" />
+          <root url="file://D:/Work/dental/vendor/symfony/css-selector" />
+          <root url="file://D:/Work/dental/vendor/symfony/debug" />
+          <root url="file://D:/Work/dental/vendor/symfony/event-dispatcher" />
+          <root url="file://D:/Work/dental/vendor/symfony/finder" />
+          <root url="file://D:/Work/dental/vendor/symfony/http-foundation" />
+          <root url="file://D:/Work/dental/vendor/symfony/http-kernel" />
+          <root url="file://D:/Work/dental/vendor/symfony/polyfill-mbstring" />
+          <root url="file://D:/Work/dental/vendor/symfony/process" />
+          <root url="file://D:/Work/dental/vendor/symfony/routing" />
+          <root url="file://D:/Work/dental/vendor/symfony/translation" />
+          <root url="file://D:/Work/dental/vendor/symfony/var-dumper" />
+          <root url="file://D:/Work/dental/vendor/symfony/yaml" />
+          <root url="file://D:/Work/dental/vendor/tijsverkoyen/css-to-inline-styles" />
+          <root url="file://D:/Work/dental/vendor/vlucas/phpdotenv" />
+          <root url="file://D:/Work/dental/vendor/webmozart/assert" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://D:/Work/dental/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://D:/Work/dental/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

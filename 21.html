@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="customStyle.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <br/>
+        <form>
+
+            <div class="form-group">
+                <label for="inputFN">Full Name</label>
+                <input id="inputFN" class="form-control" type="text" placeholder="Full Name"/>
+            </div>
+            <div class="form-group">
+                <label for="inputDOB">Date Of Birth</label>
+                <input class="form-control" palceholder="Date of birth" id="inputDOB" type="date"/>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input class="form-control" id="inputEmail" type="email" placeholder="Email address"/>
+            </div>
+            <div class="form-group">
+                <label for="inputExperience">Work Experience</label>
+                <input class="form-control" id="inputExperience" type="number" placeholder="Total experience in years"/>
+            </div>
+            <div class="form-group">
+                <label for="inputUrl">Personal Website</label>
+                <input class="form-control" id="inputUrl" type="url" placeholder="Your website url"/>
+            </div>
+            <button class="btn btn-default" type="submit">Login</button>
+        </form>
+    </div>
+    <div class="row">
+        <br/>
+        <form>
+            <div class="form-group">
+                <label for="inputDescription">Description</label>
+                <textarea class="form-control" id="inputDescription" rows="10"
+                          placeholder="Full product description"></textarea>
+            </div>
+            <button class="btn btn-default" type="submit">Login</button>
+        </form>
+    </div>
+    <div class="row">
+        <br/>
+        <form>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="option1"/>
+                    Option 1
+                </label>
+            </div>
+            <div class="checkbox disabled">
+                <label>
+                    <input disabled type="checkbox" value="option2"/>
+                    Option 2
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="option3"/>
+                    Option 3
+                </label>
+            </div>
+            <button class="btn btn-default" type="submit">Login</button>
+        </form>
+    </div>
+    <div class="row">
+        <br/>
+        <form>
+
+            <label class="checkbox-inline">
+                <input type="checkbox" value="option1"/>
+                Option 1
+            </label>
+
+
+            <label class="checkbox-inline disabled">
+                <input disabled type="checkbox" value="option2"/>
+                Option 2
+            </label>
+
+
+            <label class="checkbox-inline">
+                <input type="checkbox" value="option3"/>
+                Option 3
+            </label>
+
+        </form>
+    </div>
+    <div class="row">
+        <br/>
+        <div class="radio">
+            <label>
+                <input type="radio" name="radioGroup" value="1"/> Option 1
+            </label>
+        </div>
+        <div class="radio disabled">
+            <label>
+                <input disabled type="radio" name="radioGroup" value="2"/> Option 2
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" name="radioGroup" value="3"/> Option 3
+            </label>
+        </div>
+    </div>
+    <div class="row">
+        <br/>
+
+        <label class="radio-inline">
+            <input type="radio" name="radioGroup" value="1"/> Option 1
+        </label>
+
+
+        <label class="radio-inline disabled">
+            <input disabled type="radio" name="radioGroup" value="2"/> Option 2
+        </label>
+
+
+        <label class="radio-inline">
+            <input type="radio" name="radioGroup" value="3"/> Option 3
+        </label>
+
+    </div>
+    <div class="row">
+        <br/>
+        <select class="form-control">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option disabled>Option 3</option>
+            <option>Option 4</option>
+            <option>Option 5</option>
+        </select>
+    </div>
+    <div class="row">
+        <br/>
+        <select multiple class="form-control">
+            <option>Option 1</option>
+            <option disabled>Option 2</option>
+            <option>Option 3</option>
+            <option>Option 4</option>
+            <option>Option 5</option>
+        </select>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

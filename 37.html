@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="customStyle.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+    <br/>
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <a class="btn btn-primary" href="#imageGallery" data-toggle="collapse">
+                    Toggle Image Gallery</a>
+            </div>
+            <div class="panel-body collapse in" id="imageGallery">
+                <div class="col-sm-4">
+                    <a href="images/mbuntu-0.jpg" class="thumbnail" title="mbuntu-0.jpg">
+                        <p>mbuntu-0</p>
+                        <img src="images/mbuntu-0.jpg"/>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="images/mbuntu-11.jpg" class="thumbnail" title="mbuntu-11.jpg">
+                        <p>mbuntu-11</p>
+                        <img src="images/mbuntu-11.jpg"/>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="images/mbuntu-9.jpg" class="thumbnail" title="mbuntu-9.jpg">
+                        <p>mbuntu-9</p>
+                        <img src="images/mbuntu-9.jpg"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <button class="btn btn-primary" data-target="#imageGallery2" data-toggle="collapse">
+                    Toggle Image Gallery</button>
+            </div>
+            <div class="panel-body collapse in" id="imageGallery2">
+                <div class="col-sm-4">
+                    <a href="images/mbuntu-0.jpg" class="thumbnail" title="mbuntu-0.jpg">
+                        <p>mbuntu-0</p>
+                        <img src="images/mbuntu-0.jpg"/>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="images/mbuntu-11.jpg" class="thumbnail" title="mbuntu-11.jpg">
+                        <p>mbuntu-11</p>
+                        <img src="images/mbuntu-11.jpg"/>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="images/mbuntu-9.jpg" class="thumbnail" title="mbuntu-9.jpg">
+                        <p>mbuntu-9</p>
+                        <img src="images/mbuntu-9.jpg"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <button class="btn btn-primary" id="toggleGallery">
+                    Toggle Image Gallery</button>
+                <button class="btn btn-primary"  id="hideGallery">
+                    Hide Image Gallery</button>
+                <button class="btn btn-primary"  id="showGallery">
+                    Show Image Gallery</button>
+            </div>
+            <div class="panel-body collapse in" id="imageGallery3">
+                <div class="col-sm-4">
+                    <a href="images/mbuntu-0.jpg" class="thumbnail" title="mbuntu-0.jpg">
+                        <p>mbuntu-0</p>
+                        <img src="images/mbuntu-0.jpg"/>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="images/mbuntu-11.jpg" class="thumbnail" title="mbuntu-11.jpg">
+                        <p>mbuntu-11</p>
+                        <img src="images/mbuntu-11.jpg"/>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="images/mbuntu-9.jpg" class="thumbnail" title="mbuntu-9.jpg">
+                        <p>mbuntu-9</p>
+                        <img src="images/mbuntu-9.jpg"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $('#toggleGallery').click(function(){
+            $('#imageGallery3').collapse('toggle');
+        });
+
+        $('#hideGallery').click(function(){
+            $('#imageGallery3').collapse('hide');
+        });
+
+        $('#showGallery').click(function(){
+            $('#imageGallery3').collapse('show');
+        });
+
+        // event listener
+        $('#imageGallery3').on('show.bs.collapse', function(){
+            alert('Image Gallery is about to be expanded');
+        });
+
+        $('#imageGallery3').on('shown.bs.collapse', function(){
+            alert('Image Gallery is now expanded');
+        });
+
+        $('#imageGallery3').on('hide.bs.collapse', function(){
+            alert('Image Gallery is about to be hidden');
+        });
+
+        $('#imageGallery3').on('hidden.bs.collapse', function(){
+            alert('Image Gallery is now hidden');
+        });
+
+    });
+</script>
+
+</body>
+</html>
